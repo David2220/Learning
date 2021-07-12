@@ -1,0 +1,13 @@
+//70강 예제코드 변형
+public static void result(int left, int right) {
+ System.out.println(left*right)
+}
+
+public static void main(String[] args) {
+ result(2,5)
+ result(6,10)
+}
+
+//result: method
+//(): parameter
+//int left, right: argument
