@@ -16,7 +16,7 @@ public class BaekjoonQ01change {
 				char letter = (char)intname;
 				finame = finame+letter;
 			}
-			else if(97>intname||intname>122) {
+			else if(65<=intname&&intname<=90) {
 				error = 1;
 			}
 			else {
